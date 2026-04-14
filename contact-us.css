@@ -1,0 +1,137 @@
+@media (max-width: 600px) {
+
+    .backgroundvideo {
+        object-fit: cover;
+
+    }
+
+
+    .pages {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        height: auto;
+        padding: 15px 0;
+        font-size: 1rem;
+        
+        
+    }
+        .home, .add_courses, .contact_us {
+           width:80%; 
+       
+      
+            height: 45px;
+        }
+    
+         h1 {
+            font-size: 1.5em;
+        }
+
+
+
+
+
+
+
+}
+
+.backgroundvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+ 
+
+
+  
+}.content {
+    text-align: center;
+    color: rgb(131, 9, 5);
+    font-size: 1.5em;
+    font-family: fantasy;
+    font-style: italic;
+        z-index: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.678);
+}
+#email {
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    color: rgb(131, 9, 5);
+
+    border-radius: 5px;
+}
+#email:hover {
+   
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding: 15px;
+}
+#hotline {
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+}
+#facebook-link {
+    background-color: rgb(131, 9, 5);
+    width: 300px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 150px;
+}
+#facebook-link:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding: 15px;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pages {
+
+    width:auto ;
+
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+
+ 
+    padding: 10px 15px;
+    
+  
+    align-items: center;
+    z-index: 1;
+
+}
+.home, .my_courses, .add_courses {
+    text-align: center;
+    display:inline-block ;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: rgb(131, 9, 5);
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+.home:hover, .my_courses:hover, .add_courses:hover {
+    background-color: rgb(182, 12, 6);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

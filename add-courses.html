@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Course Organizer</title>
+    <link rel="stylesheet" href="add-courses.css">
+</head>
+<body>
+    <main>
+
+
+
+<div class="livebackground">
+    <video class="backgroundvideo" controls autoplay loop muted> >
+
+    <source src="Screen Recording 2026-04-11 162437.mp4" type="video/mp4" >
+
+
+    </video>
+
+</div>
+
+
+
+
+
+<content class="content">
+         <nav class="pages">
+    
+        <a href="index.html" class="home" target="_blank">home</a>
+        <a href="my-courses.html" class="my_courses" target="_blank">my courses</a>
+        <a href="contact-us.html" class="contact_us" target="_blank">contact us</a>
+    
+
+
+</nav>
+    <h1>add your courses</h1>
+  
+    <form class="course-form">
+        
+        
+        <br>
+        <label for="course-name">Course Name:</label>
+  <select name="course-name" id="course-name" required>
+    <option value="OR">OR</option>
+    <option value="OS">OS</option>
+    <option value="signals">Signals</option>
+    <option value="datastructures">Data Structures</option>
+    <option value="algorithms">Algorithms</option>
+
+  </select>
+  
+  <br><br>
+
+        <label for="credit-hours">Credit Hours:</label>
+        <select name="credit-hours" id="credit-hours" required>
+            <option value="3">3</option>
+            <option value="2">2</option>
+        </select>
+        <br><br>
+
+        <label for="instructor">Instructor:</label>
+        <input type="text" id="instructor" name="instructor" required><br><br>
+
+        
+        <textarea name="notes" id="notes" placeholder="Add notes about the course..."></textarea>
+                <input type="submit" value="Add Course" class="submit-btn">
+
+    </form>
+
+
+</content>
+
+
+
+
+
+    </main>
+    
+</body>
+</html>

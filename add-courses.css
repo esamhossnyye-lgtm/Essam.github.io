@@ -1,0 +1,150 @@
+
+
+@media (max-width: 600px) { 
+    
+    .backgroundvideo {
+        object-fit: cover;
+
+    }
+    .pages {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+        font-size: 1rem;
+        }
+        h1{
+            font-size: 1.8rem;
+        }
+        .home, .add_courses, .contact_us {
+            width: 80%;
+   
+        margin: 5px auto;
+        }
+    
+        .content h1 {
+            font-size: 1.5em;
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+.backgroundvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+ 
+
+
+  
+}.content {
+    text-align: center;
+    color: rgb(131, 9, 5);
+    font-size: 1.5em;
+    font-family: fantasy;
+        z-index: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.678);
+}
+
+#course-name {
+    font-size: 0.6em;
+    font-family: fantasy;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+#credit-hours {
+    font-size: 0.6em;
+    font-family: fantasy;
+    font-style: italic;
+    margin-bottom: 10px;
+    width: 80px;
+
+}
+#instructor {
+    font-size: 0.6em;
+    font-family: fantasy;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.submit-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(131, 9, 5);
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-family: fantasy;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.submit-btn:hover {
+    transition: 0.8s;
+    background-color: rgb(182, 12, 6);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    opacity: 1;
+}
+#course-name:hover, #credit-hours:hover, #instructor:hover, #notes:hover {
+
+    color: rgb(245, 14, 14);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+#notes {
+    font-size: 0.6em;
+    font-family: fantasy;
+    font-style: italic;
+    margin-top: 10px;
+    height: 100px;
+    width: 300px;
+    color: rgb(131, 9, 5);
+}
+.pages {
+
+    width: 100%;
+
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+ 
+    padding: 10px;
+    
+  
+    align-items: center;
+    z-index: 1;
+
+}
+.home, .my_courses, .contact_us {
+    text-align: center;
+    display:inline-block ;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: rgb(131, 9, 5);
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+.home:hover, .my_courses:hover, .contact_us:hover {
+    background-color: rgb(182, 12, 6);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
